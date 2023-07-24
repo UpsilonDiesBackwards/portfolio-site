@@ -9,7 +9,7 @@ enableRobotsTXT = true
 
 [params]
   footer = "Tayler Parsons"
-  favicon = 'static/logo.ico'
+  favicon = 'assets/logo.ico'
 
   description = "Horse walks into a bar, barman asks \"why the long face?\""
   metaKeywords = ["blog", "golang", "unity", "unity engine", "game development", "tutorials", "video games"]

@@ -66,6 +66,19 @@ function drawLine() {
 function mousemove(e) {
     mouse.x = e.x;
     mouse.y = e.y;
+
+    const contentBox = document.getElementById("content");
+    const contentBoxRect = contentBox.getBoundingClientRect();
+        if (
+            mouse.x >= contentBoxRect.left &&
+            mouse.x <= contentBoxRect.right &&
+            mouse.y >= contentBoxRect.top &&
+            mouse.y <= contentBoxRect.bottom
+        ) {
+            mouse.radius = 25;
+        } else {
+            mouse.radius = 75;
+        }
 }
 
 function mouseout() {
