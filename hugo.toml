@@ -1,5 +1,5 @@
-#baseURL = 'http:/tayler.diesbackwards.com'
-baseURL='http://example.org/'
+baseURL = 'http:/tayler.diesbackwards.com'
+#baseURL='http://example.org/'
 languageCode = 'en'
 defaultContentLanguage = "en"
 title = 'Tayler Parsons'
