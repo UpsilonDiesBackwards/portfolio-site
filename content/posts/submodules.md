@@ -1,5 +1,5 @@
 ---
-title: "Git Submodules"
+title: "I HATE Git Submodules"
 date: 2023-07-24
 description: "I REALLY hate submodules"
 type: "post"
