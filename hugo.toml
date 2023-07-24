@@ -10,7 +10,7 @@ enableRobotsTXT = true
 [params]
   footer = "Tayler Parsons"
   description = "Horse walks into a bar, barman asks \"why the long face?\""
-  metaKeywords = ["blog", "golang", "unity", "unity engine", "game development", "tutorials"]
+  metaKeywords = ["blog", "golang", "unity", "unity engine", "game development", "tutorials", "video games"]
   site_type = "Person"
 
 [params.assets]
