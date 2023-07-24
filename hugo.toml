@@ -1,0 +1,83 @@
+baseURL = 'http:/tayler.diesbackwards.com'
+#baseURL='http://example.org/'
+languageCode = 'en'
+defaultContentLanguage = "en"
+title = 'Tayler Parsons'
+theme = 'gokarna'
+enableRobotsTXT = true
+
+[params]
+  footer = "Tayler Parsons"
+  description = "Horse walks into a bar, barman asks \"why the long face?\""
+  metaKeywords = ["blog", "golang", "unity", "unity engine", "game development", "tutorials"]
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    url = "/posts/"
+    name = "Blog"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "projects"
+    url = "/projects/"
+    name = "Projects"
+    weight=2
+
+  [[menu.main]]
+    identifier = "tutorials"
+    url = "/tutorials/"
+    name = "Tutorials"
+    weight=3
+
+  [[menu.main]]
+    identifier = "resume"
+    name = "Resume"
+    url = "/resume/"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 5
+
+  [[menu.main]]
+    identifier = "linkedin"
+    url = "https://www.linkedin.com/in/tayler-parsons/"
+    weight = 6
+    pre = "<span data-feather='linkedin'></span>"
+    
+  [[menu.main]]
+    identifier = "github"
+    url = "https://github.com/UpsilonDiesBackwards"
+    weight = 7
+    pre = "<span data-feather='github'></span>"
+
+    
+  [[menu.main]]
+    identifier = "youtube"
+    url = "https://www.youtube.com/channel/UClO0xdAs0Z5K9ejHhV9_S-Q"
+    weight = 8
+    pre = "<span data-feather='youtube'></span>"
+
+    
+  [[menu.main]]
+    identifier = "twitter"
+    url = "https://twitter.com/SCXRRADIATION_"
+    weight = 9
+    pre = "<span data-feather='twitter'></span>"
+
+    
+  [[menu.main]]
+    identifier = "twitch"
+    url = "https://www.twitch.tv/upsilondiesbackwards"
+    weight = 10
+    pre = "<span data-feather='twitch'></span>"
+
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 4
+    ordered = false
