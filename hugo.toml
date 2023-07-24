@@ -1,14 +1,16 @@
-#baseURL = 'http:/tayler.diesbackwards.com'
-baseURL='http://example.org/'
+baseURL = 'http:/tayler.diesbackwards.com'
+#baseURL='http://example.org/'
 languageCode = 'en'
 defaultContentLanguage = "en"
 title = 'Tayler Parsons'
+description = "Software engineering & video game development blog alongside portfolio and project showcase"
 theme = 'gokarna'
 enableRobotsTXT = true
 
-
 [params]
   footer = "Tayler Parsons"
+  favicon = 'static/logo.ico'
+
   description = "Horse walks into a bar, barman asks \"why the long face?\""
   metaKeywords = ["blog", "golang", "unity", "unity engine", "game development", "tutorials", "video games"]
   site_type = "Person"
