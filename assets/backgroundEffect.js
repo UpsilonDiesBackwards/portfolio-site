@@ -50,7 +50,7 @@ function drawLine() {
             let distance = Math.sqrt(dx * dx + dy * dy);
 
             if (distance < particleDistance * 1.5) {
-                opacity = 0.7 - distance / (particleDistance * 1.5);
+                opacity = 1 - distance / (particleDistance * 1.5);
                 let color = isDarkMode ? "rgba(255, 255, 255, " + opacity + ")" : "rgba(0, 0, 0, " + opacity + ")";
                 ctx.strokeStyle = color;
                 ctx.lineWidth = 2;
@@ -96,7 +96,7 @@ class Particle {
         this.speed = Math.random() * 25 + 5;
     }
     draw() {
-        let color = isDarkMode ? "rgba(255, 255, 255, 0.07)" : "rgba(0, 0, 0, 0.1)";
+        let color = isDarkMode ? "rgba(255, 255, 255, .65)" : "rgba(0, 0, 0, .65)";
         ctx.fillStyle = color;
         ctx.beginPath();
         ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
