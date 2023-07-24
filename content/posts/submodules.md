@@ -1,10 +1,9 @@
 ---
 title: "Git Submodules"
-date: 2023-07-24T17:11:08Z
+date: 2023-07-24
 description: "I REALLY hate submodules"
 type: "post"
 tags: ["blog", "rant", "joke"]
-draft: true
 ---
 
 Okay, I really would have preferred the second page on this blog not be an unprofessional rant however I fell very heavily about this:
