@@ -1,0 +1,21 @@
+{{ range first 1 (where .Site.RegularPages "Params.type" "post") }}
+  <!-- Recent Blog Post -->
+  <h2>Recent Blog Post</h2>
+  <div style="border: 1px solid #ccc; padding: 20px; display: flex; align-items: center;">
+    <div style="flex: 1;">
+      <!-- Render the image here -->
+      {{ with .Params.image }}
+        {{ $img := resources.Get . }}
+        {{ $img = $img.Fit "00x300" }} <!-- Adjust the dimensions to your desired size -->
+        <img src="{{ $img.RelPermalink }}" alt="{{ .Title }}" width="300" height="300">
+      {{ end }}
+    </div>
+    <div style="flex: 3;">
+      <!-- Blog Post Title -->
+      <h3 style="margin-bottom: 0;"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+      <!-- Other post details (if needed) -->
+      <p>{{ .Date.Format "March 01, 1973" }}</p>
+      <!-- Add other details you want to show -->
+    </div>
+  </div>
+{{ end }}
