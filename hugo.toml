@@ -19,7 +19,7 @@ enableEmoji = true
   site_type = "Person"
 
 [params.assets]
-  css = ["assets/theme_override.css"]
+  css = ["static/theme_override.css"]
   js = ["assets/backgroundEffect.js"]
 
 [menu]
