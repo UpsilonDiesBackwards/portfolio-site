@@ -15,7 +15,6 @@ When I first created this site, this website had a solid off-black background so
 
 However, what I did not know (this was my first experience using gitmodules), is that if you changed the code in a file from the gitmodule you would not be able to commit those changes to git because it would try to commit the changes to the original github repo that the gitmodule belongs to. So I needed to fork the theme's repo. However, the repo was still using the old gitmodule so I spent a total of ***TWO HOURS*** removing and adding git modules, removing lines from my git configs. It was hell
 
-![Submodules](/content/posts/submodules/submodules.png)
 Torvalds what have you created?
 
 Toodles
