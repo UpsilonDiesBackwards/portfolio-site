@@ -4,6 +4,7 @@ date: 2023-07-23
 description: "Everything what has a beginning..."
 type: "post"
 tags: ["blog"]
+image: "/images/submodules.png"
 ---
 
 # Well hello there!

@@ -130,6 +130,12 @@ class Particle {
     }
 }
 
+function drawImage(imagePath) {
+    console.log('drawImage called with imagePath:', imagePath);
+    // Rest of the function code here...
+  }
+  
+
 init();
 window.addEventListener("resize", resizeReset);
 window.addEventListener("mousemove", mousemove);
