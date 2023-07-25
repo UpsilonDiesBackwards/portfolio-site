@@ -7,6 +7,7 @@ description = "Software engineering & video game development blog alongside port
 theme = 'gokarna'
 enableRobotsTXT = true
 enableResourceImage = true
+enableResourceLinks = true
 enableEmoji = true
 
 [params]
