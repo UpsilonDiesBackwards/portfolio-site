@@ -42,7 +42,7 @@ ul {
 	display: flex;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 620px) {
 	.showcase-container{
 		flex-direction: column;
 	}
