@@ -12,21 +12,14 @@
 
   <script>
     if (window.netlifyIdentity) {
-      // If the Netlify Identity widget is available, initiate it
-      window.netlifyIdentity.on("init", (user) => {
+      window.netlifyIdentity.on("init", user => {
         if (!user) {
-          // Redirect to the login page when the user is not logged in
           window.netlifyIdentity.on("login", () => {
             document.location.href = "/admin/";
           });
         }
       });
-
-      // Open the Netlify Identity widget when the user clicks the login button
-      const openIdentityModal = () => {
-        window.netlifyIdentity.open("login");
-      };
     }
-  </script>
+    </script>
 </body>
 </html>
