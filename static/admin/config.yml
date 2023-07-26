@@ -1,6 +1,5 @@
 backend:
   name: git-gateway
-  repo: UpsilonDiesBackwards/portfolio-site
   branch: main
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
