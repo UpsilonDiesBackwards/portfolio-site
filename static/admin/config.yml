@@ -11,11 +11,11 @@ backend:
 
 local_backend: true
 
-media_folder: static/images/uploads
+media_folder: "static/images/uploads"
 media_library:
-  name: uploadcare
+  name: "uploadcare"
   config:
-    publicKey: a2387dbd478ffd3d72b5
+    publicKey: "a2387dbd478ffd3d72b5"
 
 collections:
   - name: 'posts'
