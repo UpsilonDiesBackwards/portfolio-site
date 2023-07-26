@@ -3,6 +3,7 @@ title: "Hello, hello? Is this thing on?"
 date: 2023-07-23
 description: "Everything what has a beginning..."
 type: "post"
+category: "blog"
 tags: ["blog"]
 image: "/images/submodules.png"
 ---

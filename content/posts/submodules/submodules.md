@@ -3,6 +3,7 @@ title: "I HATE Git Submodules"
 date: 2023-07-24
 description: "I REALLY hate submodules"
 type: "post"
+category: "blog"
 tags: ["blog", "rant", "joke"]
 image: "/images/submodules.png"
 ---
