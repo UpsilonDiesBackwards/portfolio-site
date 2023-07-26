@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
 #canvas {
 	position: fixed;
 	left: 0;
@@ -29,4 +30,31 @@ ul {
 
 .showcase-image:hover {
 	transform: scale(1.01);
+}
+
+.showcase-element {
+	flex: 1; 
+	margin-right: 20px;
+	align-self: center;
+}
+
+.showcase-container {
+	display: flex;
+}
+
+@media (max-width: 768px) {
+	.showcase-container{
+		flex-direction: column;
+	}
+	.footer {
+		position: relative;
+		top: 0px;
+	}
+
+	.showcase-element {
+		flex: 1; 
+		margin-right: 0px; 
+		align-self: center;
+	}
+	
 }
