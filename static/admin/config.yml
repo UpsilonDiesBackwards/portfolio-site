@@ -4,7 +4,9 @@ backend:
 
 media_folder: static/images/uploads
 media_library:
-  name: uploads
+  name: uploadcare
+  config:
+    publicKey: a2387dbd478ffd3d72b5
 
 collections:
   - name: 'posts'
