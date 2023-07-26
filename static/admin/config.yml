@@ -1,3 +1,56 @@
 backend:
   name: git-gateway
   branch: main
+
+media_folder: static/images/uploads
+media_library:
+  name: uploads
+
+collections:
+  - name: 'posts'
+    label: 'Blog Posts'
+    folder: 'content/posts'
+    create: true
+    slug: '{{slug}}'
+    identifier_field: title
+    fields:
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - { name: 'date', label: 'Date', widget: 'datetime' }
+      - { name: 'description', label: 'Description', widget: 'text' }
+      - { name: 'type', label: 'Type', widget: 'string', default: 'post', hint: 'Set to "post" for blog posts' }
+      - { name: 'category', label: 'Category', widget: 'string' }
+      - { name: 'tags', label: 'Tags', widget: 'list' }
+      - { name: 'image', label: 'Image', widget: 'image' }
+      - { name: 'body', label: 'Body', widget: 'markdown' }
+
+  - name: 'projects'
+    label: 'Projects'
+    folder: 'content/projects'
+    create: true
+    slug: '{{slug}}'
+    identifier_field: title
+    fields:
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - { name: 'date', label: 'Date', widget: 'datetime' }
+      - { name: 'description', label: 'Description', widget: 'text' }
+      - { name: 'type', label: 'Type', widget: 'string', default: 'project', hint: 'Set to "project" for project posts' }
+      - { name: 'category', label: 'Category', widget: 'string' }
+      - { name: 'tags', label: 'Tags', widget: 'list' }
+      - { name: 'image', label: 'Image', widget: 'image' }
+      - { name: 'body', label: 'Body', widget: 'markdown' }
+
+  - name: 'tutorials'
+    label: 'Tutorials'
+    folder: 'content/tutorials'
+    create: true
+    slug: '{{slug}}'
+    identifier_field: title
+    fields:
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - { name: 'date', label: 'Date', widget: 'datetime' }
+      - { name: 'description', label: 'Description', widget: 'text' }
+      - { name: 'type', label: 'Type', widget: 'string', default: 'tutorial', hint: 'Set to "tutorial" for tutorial posts' }
+      - { name: 'category', label: 'Category', widget: 'string' }
+      - { name: 'tags', label: 'Tags', widget: 'list' }
+      - { name: 'image', label: 'Image', widget: 'image' }
+      - { name: 'body', label: 'Body', widget: 'markdown' }
