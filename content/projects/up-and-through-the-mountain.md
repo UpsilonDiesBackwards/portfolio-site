@@ -7,6 +7,7 @@ category: project
 tags:
   - project
 image: https://ucarecdn.com/727a91f1-e49e-4d43-bcc2-c37e15732cc2/
+showTableOfContents: true
 ---
 ## Introduction
 
@@ -28,7 +29,7 @@ The game is expected to be around one to one-and-a-half hours long, the majority
 
 To aid with me completing this project relatively quickly I am going to try to use a relatively simple art design, this includes 2D character sprites, and a 3D pixel art-esque environment inspired by \[OCTOPATH TRAVELLER]**(**https://store.steampowered.com/app/921570/OCTOPATH_TRAVELER**/)** *(see below).*
 
-![OCTOPATH TRAVELLER](https://cdn.cloudflare.steamstatic.com/steam/apps/921570/ss_4e3218569723259a23262ec23cb0ebb6226e46b2.1920x1080.jpg?t=1688650598)
+[OCTOPATH TRAVELLER](https://cdn.cloudflare.steamstatic.com/steam/apps/921570/ss_4e3218569723259a23262ec23cb0ebb6226e46b2.1920x1080.jpg?t=1688650598)
 
 I am not very good at art, hence why I have decided to go for a pixel-art design. Some additional art / help with art might be done by my friend Nicole. She is a very lovely artist and alot better than me.
 
