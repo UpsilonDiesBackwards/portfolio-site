@@ -1,4 +1,5 @@
 ---
+showTableOfContents: true
 title: Up and through the Mountain
 date: 2023-07-30T04:15:56.478Z
 description: A game about a fox's escape from the wars of man.
@@ -6,8 +7,10 @@ type: post
 category: project
 tags:
   - project
+  - unity
+  - gamedevelopment
+  - uattm
 image: https://ucarecdn.com/727a91f1-e49e-4d43-bcc2-c37e15732cc2/
-showTableOfContents: true
 ---
 ## Introduction
 
