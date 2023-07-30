@@ -32,6 +32,7 @@ collections:
       - { name: 'tags', label: 'Tags', widget: 'list', default: ['blog'] }
       - { name: 'image', label: 'Image', widget: 'image' }
       - { name: 'body', label: 'Body', widget: 'markdown' }
+      - { name: 'showTableOfContents', label: 'Show Table of Contents', widget: 'boolean', default: true }
 
   - name: 'projects'
     label: 'Projects'
@@ -48,6 +49,7 @@ collections:
       - { name: 'tags', label: 'Tags', widget: 'list', default: ['project'] }
       - { name: 'image', label: 'Image', widget: 'image' }
       - { name: 'body', label: 'Body', widget: 'markdown' }
+      - { name: 'showTableOfContents', label: 'Show Table of Contents', widget: 'boolean', default: true }
 
   - name: 'tutorials'
     label: 'Tutorials'
@@ -64,6 +66,7 @@ collections:
       - { name: 'tags', label: 'Tags', widget: 'list', default: ['tutorial'] }
       - { name: 'image', label: 'Image', widget: 'image' }
       - { name: 'body', label: 'Body', widget: 'markdown' }
+      - { name: 'showTableOfContents', label: 'Show Table of Contents', widget: 'boolean', default: true }
   - name: 'resume'
     label: 'Resume'
     folder: 'content/resume'
@@ -75,4 +78,5 @@ collections:
     fields:
       - { name: 'title', label: 'Title', widget: 'string' }
       - { name: 'body', label: 'Body', widget: 'markdown' }
+      - { name: 'showTableOfContents', label: 'Show Table of Contents', widget: 'boolean', default: true }
 
