@@ -18,7 +18,7 @@ media_library:
 
 collections:
   - name: 'posts'
-    label: 'Blog Posts'
+    label: 'Blog Post'
     folder: 'content/posts'
     create: true
     slug: '{{slug}}'
@@ -27,15 +27,15 @@ collections:
       - { name: 'title', label: 'Title', widget: 'string' }
       - { name: 'date', label: 'Date', widget: 'datetime' }
       - { name: 'description', label: 'Description', widget: 'text' }
+      - { name: 'image', label: 'Image', widget: 'image' }
       - { name: 'type', label: 'Type', widget: 'string', default: 'post' }
       - { name: 'category', label: 'Category', widget: 'string', default: 'blog', hint: "Determines showcase category" }
       - { name: 'tags', label: 'Tags', widget: 'list', default: ['blog'] }
-      - { name: 'image', label: 'Image', widget: 'image' }
-      - { name: 'body', label: 'Body', widget: 'markdown' }
       - { name: 'showTableOfContents', label: 'Show Table of Contents', widget: 'boolean', default: true }
+      - { name: 'body', label: 'Body', widget: 'markdown' }
 
   - name: 'projects'
-    label: 'Projects'
+    label: 'Project'
     folder: 'content/projects'
     create: true
     slug: '{{slug}}'
@@ -44,15 +44,15 @@ collections:
       - { name: 'title', label: 'Title', widget: 'string' }
       - { name: 'date', label: 'Date', widget: 'datetime' }
       - { name: 'description', label: 'Description', widget: 'text' }
-      - { name: 'type', label: 'Type', widget: 'string', default: 'post'}
-      - { name: 'category', label: 'Category', widget: 'string', default: 'project', hint: "Determines showcase category" }
-      - { name: 'tags', label: 'Tags', widget: 'list', default: ['project'] }
       - { name: 'image', label: 'Image', widget: 'image' }
-      - { name: 'body', label: 'Body', widget: 'markdown' }
+      - { name: 'type', label: 'Type', widget: 'string', default: 'post' }
+      - { name: 'category', label: 'Category', widget: 'string', default: 'project', hint: "Determines showcase category" }
+      - { name: 'tags', label: 'Tags', widget: 'list', default: ['blog'] }
       - { name: 'showTableOfContents', label: 'Show Table of Contents', widget: 'boolean', default: true }
+      - { name: 'body', label: 'Body', widget: 'markdown' }
 
   - name: 'tutorials'
-    label: 'Tutorials'
+    label: 'Tutorial'
     folder: 'content/tutorials'
     create: true
     slug: '{{slug}}'
@@ -61,12 +61,13 @@ collections:
       - { name: 'title', label: 'Title', widget: 'string' }
       - { name: 'date', label: 'Date', widget: 'datetime' }
       - { name: 'description', label: 'Description', widget: 'text' }
+      - { name: 'image', label: 'Image', widget: 'image' }
       - { name: 'type', label: 'Type', widget: 'string', default: 'post' }
       - { name: 'category', label: 'Category', widget: 'string', default: 'tutorial', hint: "Determines showcase category" }
-      - { name: 'tags', label: 'Tags', widget: 'list', default: ['tutorial'] }
-      - { name: 'image', label: 'Image', widget: 'image' }
-      - { name: 'body', label: 'Body', widget: 'markdown' }
+      - { name: 'tags', label: 'Tags', widget: 'list', default: ['blog'] }
       - { name: 'showTableOfContents', label: 'Show Table of Contents', widget: 'boolean', default: true }
+      - { name: 'body', label: 'Body', widget: 'markdown' }
+
   - name: 'resume'
     label: 'Resume'
     folder: 'content/resume'
