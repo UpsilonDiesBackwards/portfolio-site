@@ -20,7 +20,7 @@ Over the last few months I have been busy at university developing a few game pr
 
 ## The Jam
 
-If not everybody knows, a game jam is a event where us developers need to create a game from scratch in a limited amount of time and following a certain topic or prompt, for example a prompt may be "The Environment Changes You", or, "Progress Will Make You Weaker". Our prompt was "One Button, Hyper-casual". What this meant was that the games that we developed within our duo groups (each team consisted of two people), had to abide by the limit of a single button to control the game, as well as being "hyper-casual".
+If not everybody knows, a game jam is a event where us developers need to create a game from scratch in a limited amount of time and following a certain topic or prompt, for example a prompt may be "The Environment Changes You", or, "Progress Will Make You Weaker".  Our prompt was "One Button, Hyper-casual". What this meant was that the games that we developed within our duo groups (each team consisted of two people), had to abide by the limit of a single button to control the game, as well as being "hyper-casual".
 
 ## The Plan
 
@@ -42,7 +42,7 @@ At the end of the development period the game looked and worked perfectly! And t
 
 ## Fin.
 
-So yeah that was a short recap of one of first games I have contributed to that I am actually proud of! If you want to play the game you can find it [here](https://upsilondiesbackwardss.itch.io/mouse-code), alternatively you can find the source code of it on my [github](https://github.com/UpsilonDiesBackwards/morsecode-2d).
+So yeah that was a short recap of one of first games I have contributed to that I am actually proud of! If you want to play the game you can find it [here] (if you wish to play the game you must open it in Unity or else the collision doesn't work. ) (https://upsilondiesbackwardss.itch.io/mouse-code), alternatively you can find the source code of it on my [github](https://github.com/UpsilonDiesBackwards/morsecode-2d).
 
 The next game jam we shall be doing will be an interesting experience. It is quite ambitious and will be challenging, but I am fully confident in my producing skills and my six other team members (including Will :o)
 
