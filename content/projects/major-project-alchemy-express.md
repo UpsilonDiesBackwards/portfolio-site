@@ -39,7 +39,9 @@ This project was also the first time we had any hands-on experience with Jira. I
 
 ## You can play this game!
 
-That's right. You can play this. Find it below and give it a little go! Tell me how it is and how it goes.
+That's right. You can play this. Find it below and give it a little go! Tell me how it is and how it goes.\
+\
+https://phroogy.itch.io/alchemy-express
 
 <iframe frameborder="0" src="https://itch.io/embed/2684586?bg_color=ffffff" width="552" height="167"><a href="https://phroogy.itch.io/alchemy-express">Alchemy Express by Phroogy</a></iframe>
 
