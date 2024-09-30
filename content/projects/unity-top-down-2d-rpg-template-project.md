@@ -27,7 +27,7 @@ It currently features:
 * 2D Character Controller
 * Cinemachine Camera System
 * A* Pathfinding NPCs that can Roam, Patrol, and Persue. (albiet a bit broken)
-* Inventory system (courtesy of [PitilT on YouTube](youtube.com/watch?v=v4Xqj0sanyU))
+* Inventory system (courtesy of PitilT on [YouTube](https://youtube.com/watch?v=v4Xqj0sanyU))
 * Very simple combat
 * Dialogue System
 * Player can be hurt and heal at campfires.
@@ -49,6 +49,10 @@ I no longer support using AI for programming as it is a very slippery slope.
 
 ***Perhaps this is something I should ramble about in a separate blog post?***
 
-
-
 *Thank you, and goodnight - Tayler "Upsilon"*
+
+
+
+
+
+*:)*
