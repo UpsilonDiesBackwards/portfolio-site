@@ -49,8 +49,8 @@ enableEmoji = true
 
   [[menu.main]]
     identifier = "resume"
+    url = "/pdfs/resume.pdf"
     name = "Resume"
-    url = "/resume/"
     weight = 5
 
   [[menu.main]]
@@ -77,14 +77,6 @@ enableEmoji = true
     url = "https://www.youtube.com/channel/UClO0xdAs0Z5K9ejHhV9_S-Q"
     weight = 9
     pre = "<span data-feather='youtube'></span>"
-
-    
-  [[menu.main]]
-    identifier = "twitter"
-    url = "https://twitter.com/SCXRRADIATION_"
-    weight = 10
-    pre = "<span data-feather='twitter'></span>"
-
     
   [[menu.main]]
     identifier = "twitch"
