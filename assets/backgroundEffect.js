@@ -21,8 +21,8 @@ function resizeReset() {
     h = (canvas.height = window.innerHeight);
 
     particles = [];
-    for (let y = (((h - particleDistance) % particleDistance) + particleDistance) / 2; y < h; y += particleDistance) {
-        for (let x = (((w - particleDistance) % particleDistance) + particleDistance) / 2; x < w; x += particleDistance) {
+    for (let y = 0; y < h + particleDistance; y += particleDistance) {
+        for (let x = 0; x < w + particleDistance; x += particleDistance) {
             particles.push(new Particle(x, y));
         }
     }
@@ -69,16 +69,16 @@ function mousemove(e) {
 
     const contentBox = document.getElementById("content");
     const contentBoxRect = contentBox.getBoundingClientRect();
-        if (
-            mouse.x >= contentBoxRect.left &&
-            mouse.x <= contentBoxRect.right &&
-            mouse.y >= contentBoxRect.top &&
-            mouse.y <= contentBoxRect.bottom
-        ) {
-            mouse.radius = 25;
-        } else {
-            mouse.radius = 75;
-        }
+    if (
+        mouse.x >= contentBoxRect.left &&
+        mouse.x <= contentBoxRect.right &&
+        mouse.y >= contentBoxRect.top &&
+        mouse.y <= contentBoxRect.bottom
+    ) {
+        mouse.radius = 25;
+    } else {
+        mouse.radius = 75;
+    }
 }
 
 function mouseout() {
@@ -94,30 +94,42 @@ class Particle {
         this.baseX = this.x;
         this.baseY = this.y;
         this.speed = Math.random() * 25 + 5;
+        this.time = Math.random() * Math.PI * 2;
+        this.isMoving = false;
     }
+
     draw() {
-        let color = isDarkMode ? "rgba(255, 255, 255, .65)" : "rgba(0, 0, 0, .65)";
+        const brightness = this.isMoving ? 1.5 : 0.5 + 0.5 * Math.sin(this.time);
+        let color = isDarkMode 
+            ? `rgba(255, 255, 255, ${brightness * 0.65})` 
+            : `rgba(0, 0, 0, ${brightness * 0.65})`;
+
         ctx.fillStyle = color;
         ctx.beginPath();
         ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
         ctx.closePath();
         ctx.fill();
+
+        this.time += 0.05;
     }
+
     update() {
         let dx = mouse.x - this.x;
         let dy = mouse.y - this.y;
         let distance = Math.sqrt(dx * dx + dy * dy);
         let maxDistance = mouse.radius;
-        let force = (maxDistance - distance) / maxDistance; // 0 ~ 1
+        let force = (maxDistance - distance) / maxDistance;
         let forceDirectionX = dx / distance;
         let forceDirectionY = dy / distance;
         let directionX = forceDirectionX * force * this.speed;
         let directionY = forceDirectionY * force * this.speed;
 
         if (distance < mouse.radius) {
+            this.isMoving = true;
             this.x -= directionX;
             this.y -= directionY;
         } else {
+            this.isMoving = false;
             if (this.x !== this.baseX) {
                 let dx = this.x - this.baseX;
                 this.x -= dx / 10;
@@ -129,12 +141,6 @@ class Particle {
         }
     }
 }
-
-function drawImage(imagePath) {
-    console.log('drawImage called with imagePath:', imagePath);
-    // Rest of the function code here...
-  }
-  
 
 init();
 window.addEventListener("resize", resizeReset);
