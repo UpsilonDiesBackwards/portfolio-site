@@ -26,7 +26,7 @@ It currently features:
 
 * 2D Character Controller
 * Cinemachine Camera System
-* A* Pathfinding NPCs that can Roam, Patrol, and Persue. (albiet a bit broken)
+* A* Pathfinding NPCs that can Roam, Patrol, and Pursue. (albeit a bit broken)
 * Inventory system (courtesy of PitilT on [YouTube](https://youtube.com/watch?v=v4Xqj0sanyU))
 * Very simple combat
 * Dialogue System
