@@ -1,11 +1,13 @@
 ---
-title: "Hello, hello? Is this thing on?"
+title: Hello, hello? Is this thing on?
 date: 2023-07-23
-description: "Everything what has a beginning..."
-type: "post"
-category: "blog"
-tags: ["blog"]
-image: "/images/submodules.png"
+description: Everything what has a beginning...
+image: https://ucarecdn.com/e178fd4a-fe6d-4a59-b182-79c6c08c96c7/
+type: post
+category: blog
+tags:
+  - blog
+showTableOfContents: true
 ---
 
 # Well hello there!
