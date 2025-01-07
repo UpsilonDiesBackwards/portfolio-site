@@ -1,5 +1,5 @@
-#baseURL = 'http:/tayler.diesbackwards.com'
-baseURL='http://localhost'
+baseURL = 'http:/tayler.diesbackwards.com'
+#baseURL='http://localhost'
 languageCode = 'en'
 defaultContentLanguage = "en"
 title = 'Tayler Parsons'
@@ -63,28 +63,35 @@ ignoreLogs = ['warning-goldmark-raw-html']
     weight = 6
 
   [[menu.main]]
+    identifier = "mail"
+    url = "mailto:upsilon@diesbackwards.com"
+    pre = "<span data-feather='mail'></span>"
+    title = "Contact me!"
+    weight = 7
+
+  [[menu.main]]
     identifier = "linkedin"
     url = "https://www.linkedin.com/in/tayler-parsons/"
-    weight = 7
+    weight = 8
     pre = "<span data-feather='linkedin'></span>"
     
   [[menu.main]]
     identifier = "github"
     url = "https://github.com/UpsilonDiesBackwards"
-    weight = 8
+    weight = 9
     pre = "<span data-feather='github'></span>"
 
-    
+  
   [[menu.main]]
     identifier = "youtube"
     url = "https://www.youtube.com/channel/UClO0xdAs0Z5K9ejHhV9_S-Q"
-    weight = 9
+    weight = 10
     pre = "<span data-feather='youtube'></span>"
     
   [[menu.main]]
     identifier = "twitch"
     url = "https://www.twitch.tv/upsilondiesbackwards"
-    weight = 10
+    weight = 11
     pre = "<span data-feather='twitch'></span>"
 
 
