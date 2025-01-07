@@ -2,7 +2,7 @@
 title: "Game Jam: Mouse Code"
 date: 2024-01-12T01:34:33.708Z
 description: ..-. .. ... .... -.-- / ... - .. -.-. -.- ... -.-.--
-image: https://img.itch.zone/aW1hZ2UvMjMxMTU2NS8xMzY5NzA4MS5wbmc=/original/F3qo5M.png
+image: https://ucarecdn.com/febee2b8-f6df-4306-af00-fef70d595ffd/
 type: post
 category: project
 tags:
