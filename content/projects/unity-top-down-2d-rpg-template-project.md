@@ -43,16 +43,12 @@ Due to the fact it does use code from a YouTube tutorial I have refrained from l
 
 #### Disclaimer:
 
-It would be discourteous for me to mention that early in the stage of my personal project, and which code may have been transferred over, the AI ChatGPT craze occurred. While the vast majority (99%) of this code was written by me (or PitilT in regards of the inventory system) some of the smaller details such as some debugging may have been generated via AI.
+It would be discourteous for me to not mention that early in the stage of my personal project, and which code may have been transferred over, the AI ChatGPT craze occurred. While the vast majority (99%) of this code was written by me (or PitilT in regards of the inventory system) some of the smaller details such as some debugging may have been generated via AI.
 
 I no longer support using AI for programming as it is a very slippery slope. 
 
 ***Perhaps this is something I should ramble about in a separate blog post?***
 
 *Thank you, and goodnight - Tayler "Upsilon"*
-
-
-
-
 
 *:)*
