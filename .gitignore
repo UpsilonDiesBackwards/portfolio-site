@@ -11,12 +11,6 @@ bin-release/
 # lock
 *.lock
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
 # Hugo
 public/
 

@@ -21,7 +21,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
   site_type = "Person"
 
 [params.assets]
-  css = ["static/theme_override.css"]
+  css = ["assets/theme_override.css"]
   js = ["assets/backgroundEffect.js"]
 
 [menu]
