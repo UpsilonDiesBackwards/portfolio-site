@@ -1,0 +1,83 @@
+backend:
+  name: git-gateway
+  branch: main
+  commit_messages:
+    create: 'Create {{collection}} “{{slug}}”'
+    update: 'Update {{collection}} “{{slug}}”'
+    delete: 'Delete {{collection}} “{{slug}}”'
+    uploadMedia: '[skip ci] Upload “{{path}}”'
+    deleteMedia: '[skip ci] Delete “{{path}}”'
+
+local_backend: true
+
+media_folder: "static/images/uploads"
+media_library:
+  name: "uploadcare"
+  config:
+    publicKey: "a2387dbd478ffd3d72b5"
+
+collections:
+  - name: 'posts'
+    label: 'Blog Post'
+    folder: 'content/posts'
+    create: true
+    slug: '{{slug}}'
+    identifier_field: title
+    fields:
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - { name: 'date', label: 'Date', widget: 'datetime' }
+      - { name: 'description', label: 'Description', widget: 'text' }
+      - { name: 'image', label: 'Image', widget: 'image' }
+      - { name: 'type', label: 'Type', widget: 'string', default: 'post' }
+      - { name: 'category', label: 'Category', widget: 'string', default: 'blog', hint: "Determines showcase category" }
+      - { name: 'tags', label: 'Tags', widget: 'list', default: ['blog'] }
+      - { name: 'showTableOfContents', label: 'Show Table of Contents', widget: 'boolean', default: true }
+      - { name: 'body', label: 'Body', widget: 'markdown' }
+
+  - name: 'projects'
+    label: 'Project'
+    folder: 'content/projects'
+    create: true
+    slug: '{{slug}}'
+    identifier_field: title
+    fields:
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - { name: 'date', label: 'Date', widget: 'datetime' }
+      - { name: 'description', label: 'Description', widget: 'text' }
+      - { name: 'image', label: 'Image', widget: 'image' }
+      - { name: 'type', label: 'Type', widget: 'string', default: 'post' }
+      - { name: 'category', label: 'Category', widget: 'string', default: 'project', hint: "Determines showcase category" }
+      - { name: 'tags', label: 'Tags', widget: 'list', default: ['blog'] }
+      - { name: 'showTableOfContents', label: 'Show Table of Contents', widget: 'boolean', default: true }
+      - { name: 'body', label: 'Body', widget: 'markdown' }
+
+  - name: 'tutorials'
+    label: 'Tutorial'
+    folder: 'content/tutorials'
+    create: true
+    slug: '{{slug}}'
+    identifier_field: title
+    fields:
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - { name: 'date', label: 'Date', widget: 'datetime' }
+      - { name: 'description', label: 'Description', widget: 'text' }
+      - { name: 'image', label: 'Image', widget: 'image' }
+      - { name: 'type', label: 'Type', widget: 'string', default: 'post' }
+      - { name: 'category', label: 'Category', widget: 'string', default: 'tutorial', hint: "Determines showcase category" }
+      - { name: 'tags', label: 'Tags', widget: 'list', default: ['blog'] }
+      - { name: 'showTableOfContents', label: 'Show Table of Contents', widget: 'boolean', default: true }
+      - { name: 'body', label: 'Body', widget: 'markdown' }
+
+  - name: 'resume'
+    label: 'Resume'
+    folder: 'content/resume'
+    create: false
+    slug: 'resume'
+    publish: false
+    editor:
+      preview: false
+    fields:
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - { name: 'body', label: 'Body', widget: 'markdown' }
+      - { name: 'showTableOfContents', label: 'Show Table of Contents', widget: 'boolean', default: true }
+

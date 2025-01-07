@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Template on Tayler Parsons</title>
+    <link>http://localhost:1313/tags/template/</link>
+    <description>Recent content in Template on Tayler Parsons</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 30 Sep 2024 22:13:01 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/template/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unity Top Down 2D RPG Template Project</title>
+      <link>http://localhost:1313/projects/unity-top-down-2d-rpg-template-project/</link>
+      <pubDate>Mon, 30 Sep 2024 22:13:01 +0000</pubDate>
+      <guid>http://localhost:1313/projects/unity-top-down-2d-rpg-template-project/</guid>
+      <description>&lt;h1 id=&#34;hello-again&#34;&gt;Hello again,&lt;/h1&gt;&#xA;&lt;p&gt;I have have spent the last couple of days migrating some of the generic features from my personal project into a new template project which I have recently decided to make public.&lt;/p&gt;&#xA;&lt;p&gt;It is by no means the best template ever made, but may I present to you the legendary&lt;/p&gt;&#xA;&lt;h2 id=&#34;upsilons-unity-top-down-2d-rpg-template-project&#34;&gt;Upsilon&amp;rsquo;s Unity Top Down 2D RPG Template Project!&lt;/h2&gt;&#xA;&lt;p&gt;I still consider this an in-development project which will evolve throughout the next couple of months however I feel like it is at a good place at the moment for it to be published. It is intended to quicken up the process of creating a top down 2D unity game / prototype.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

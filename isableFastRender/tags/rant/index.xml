@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rant on Tayler Parsons</title>
+    <link>http://localhost:1313/tags/rant/</link>
+    <description>Recent content in Rant on Tayler Parsons</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 24 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/rant/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I HATE Git Submodules</title>
+      <link>http://localhost:1313/posts/submodules/submodules/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/submodules/submodules/</guid>
+      <description>&lt;p&gt;Okay, I really would have preferred the second post on this blog not be an unprofessional rant however I fell very heavily about this:&lt;/p&gt;&#xA;&lt;h3 id=&#34;i-hate-git-submodules&#34;&gt;I HATE GIT SUBMODULES!!!&lt;/h3&gt;&#xA;&lt;p&gt;When I first created this site, this website had a solid off-black background so I wanted to add the current interactive grid that you see before you to make it a little bit more &lt;em&gt;juicy&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;However, what I did not know (this was my first experience using gitmodules), is that if you changed the code in a file from the gitmodule you would not be able to commit those changes to git because it would try to commit the changes to the original github repo that the gitmodule belongs to. So I needed to fork the theme&amp;rsquo;s repo. However, the repo was still using the old gitmodule so I spent a total of &lt;em&gt;&lt;strong&gt;TWO HOURS&lt;/strong&gt;&lt;/em&gt; removing and adding git modules, removing lines from my git configs. It was hell&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

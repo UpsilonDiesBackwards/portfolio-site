@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gamedevelopment on Tayler Parsons</title>
+    <link>http://localhost:1313/tags/gamedevelopment/</link>
+    <description>Recent content in Gamedevelopment on Tayler Parsons</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 30 Sep 2024 22:13:01 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/gamedevelopment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unity Top Down 2D RPG Template Project</title>
+      <link>http://localhost:1313/projects/unity-top-down-2d-rpg-template-project/</link>
+      <pubDate>Mon, 30 Sep 2024 22:13:01 +0000</pubDate>
+      <guid>http://localhost:1313/projects/unity-top-down-2d-rpg-template-project/</guid>
+      <description>&lt;h1 id=&#34;hello-again&#34;&gt;Hello again,&lt;/h1&gt;&#xA;&lt;p&gt;I have have spent the last couple of days migrating some of the generic features from my personal project into a new template project which I have recently decided to make public.&lt;/p&gt;&#xA;&lt;p&gt;It is by no means the best template ever made, but may I present to you the legendary&lt;/p&gt;&#xA;&lt;h2 id=&#34;upsilons-unity-top-down-2d-rpg-template-project&#34;&gt;Upsilon&amp;rsquo;s Unity Top Down 2D RPG Template Project!&lt;/h2&gt;&#xA;&lt;p&gt;I still consider this an in-development project which will evolve throughout the next couple of months however I feel like it is at a good place at the moment for it to be published. It is intended to quicken up the process of creating a top down 2D unity game / prototype.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Major Project: Alchemy Express</title>
+      <link>http://localhost:1313/projects/major-project-alchemy-express/</link>
+      <pubDate>Sun, 02 Jun 2024 00:32:07 +0000</pubDate>
+      <guid>http://localhost:1313/projects/major-project-alchemy-express/</guid>
+      <description>&lt;h2 id=&#34;hello-friend&#34;&gt;Hello Friend&lt;/h2&gt;&#xA;&lt;p&gt;It&amp;rsquo;s been a hot minute since my last post on this site.&lt;/p&gt;&#xA;&lt;p&gt;Just before Christmas I started the fourth and final game jam of my first year of university and me and my team had to decide on a brief that was created by the then-current second year students.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-brief&#34;&gt;The Brief&lt;/h2&gt;&#xA;&lt;p&gt;The briefs that we were supplied with seemed strange. There was &lt;em&gt;a lot&lt;/em&gt; of Hades-clones or games that, to-us didn&amp;rsquo;t sound too coherent.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Game Jam: Mouse Code</title>
+      <link>http://localhost:1313/projects/game-jam-mouse-code/</link>
+      <pubDate>Fri, 12 Jan 2024 01:34:33 +0000</pubDate>
+      <guid>http://localhost:1313/projects/game-jam-mouse-code/</guid>
+      <description>&lt;h2 id=&#34;heya-long-time-no-see&#34;&gt;Heya, Long time no see!&lt;/h2&gt;&#xA;&lt;p&gt;It&amp;rsquo;s been a while hasn&amp;rsquo;t it? But it&amp;rsquo;s been a busy while.&lt;/p&gt;&#xA;&lt;p&gt;Over the last few months I have been busy at university developing a few game projects within groups and it has been quite the journey. I have made around three games at the moment, with the forth and most ambitious one starting next term. Out of all of the projects I have made so far, I believe that the first one is the hidden little gem out of the three, especially considering how many constraints that was on this particular project compared to the others.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Up and through the Mountain</title>
+      <link>http://localhost:1313/projects/up-and-through-the-mountain/</link>
+      <pubDate>Sun, 30 Jul 2023 04:15:56 +0000</pubDate>
+      <guid>http://localhost:1313/projects/up-and-through-the-mountain/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Heya,&lt;/p&gt;&#xA;&lt;p&gt;I thought it would be a good idea to just write a post about a project that I have started to work on. It&amp;rsquo;s still in it&amp;rsquo;s infantile stages of development where everything is still being figured out and where systems are just beginning to be developed. But I believe that through that just by documenting the stages of the development of this project, may help in the long run when it comes to negative things such as burnout.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

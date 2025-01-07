@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uattm on Tayler Parsons</title>
+    <link>http://localhost:1313/tags/uattm/</link>
+    <description>Recent content in Uattm on Tayler Parsons</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 30 Jul 2023 04:15:56 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/uattm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Up and through the Mountain</title>
+      <link>http://localhost:1313/projects/up-and-through-the-mountain/</link>
+      <pubDate>Sun, 30 Jul 2023 04:15:56 +0000</pubDate>
+      <guid>http://localhost:1313/projects/up-and-through-the-mountain/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Heya,&lt;/p&gt;&#xA;&lt;p&gt;I thought it would be a good idea to just write a post about a project that I have started to work on. It&amp;rsquo;s still in it&amp;rsquo;s infantile stages of development where everything is still being figured out and where systems are just beginning to be developed. But I believe that through that just by documenting the stages of the development of this project, may help in the long run when it comes to negative things such as burnout.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

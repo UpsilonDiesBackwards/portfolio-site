@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Tayler Parsons</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Tayler Parsons</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 30 Sep 2024 22:13:01 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog</title>
+      <link>http://localhost:1313/tags/blog/</link>
+      <pubDate>Mon, 30 Sep 2024 22:13:01 +0000</pubDate>
+      <guid>http://localhost:1313/tags/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gamedevelopment</title>
+      <link>http://localhost:1313/tags/gamedevelopment/</link>
+      <pubDate>Mon, 30 Sep 2024 22:13:01 +0000</pubDate>
+      <guid>http://localhost:1313/tags/gamedevelopment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Template</title>
+      <link>http://localhost:1313/tags/template/</link>
+      <pubDate>Mon, 30 Sep 2024 22:13:01 +0000</pubDate>
+      <guid>http://localhost:1313/tags/template/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unity</title>
+      <link>http://localhost:1313/tags/unity/</link>
+      <pubDate>Mon, 30 Sep 2024 22:13:01 +0000</pubDate>
+      <guid>http://localhost:1313/tags/unity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Project</title>
+      <link>http://localhost:1313/tags/project/</link>
+      <pubDate>Sun, 02 Jun 2024 00:32:07 +0000</pubDate>
+      <guid>http://localhost:1313/tags/project/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>University</title>
+      <link>http://localhost:1313/tags/university/</link>
+      <pubDate>Sun, 02 Jun 2024 00:32:07 +0000</pubDate>
+      <guid>http://localhost:1313/tags/university/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Uattm</title>
+      <link>http://localhost:1313/tags/uattm/</link>
+      <pubDate>Sun, 30 Jul 2023 04:15:56 +0000</pubDate>
+      <guid>http://localhost:1313/tags/uattm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Joke</title>
+      <link>http://localhost:1313/tags/joke/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/joke/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rant</title>
+      <link>http://localhost:1313/tags/rant/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/rant/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tutorial</title>
+      <link>http://localhost:1313/tags/tutorial/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tutorial/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

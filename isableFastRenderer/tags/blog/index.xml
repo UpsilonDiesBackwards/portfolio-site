@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Tayler Parsons</title>
+    <link>http://localhost:1313/tags/blog/</link>
+    <description>Recent content in Blog on Tayler Parsons</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 30 Sep 2024 22:13:01 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unity Top Down 2D RPG Template Project</title>
+      <link>http://localhost:1313/projects/unity-top-down-2d-rpg-template-project/</link>
+      <pubDate>Mon, 30 Sep 2024 22:13:01 +0000</pubDate>
+      <guid>http://localhost:1313/projects/unity-top-down-2d-rpg-template-project/</guid>
+      <description>&lt;h1 id=&#34;hello-again&#34;&gt;Hello again,&lt;/h1&gt;&#xA;&lt;p&gt;I have have spent the last couple of days migrating some of the generic features from my personal project into a new template project which I have recently decided to make public.&lt;/p&gt;&#xA;&lt;p&gt;It is by no means the best template ever made, but may I present to you the legendary&lt;/p&gt;&#xA;&lt;h2 id=&#34;upsilons-unity-top-down-2d-rpg-template-project&#34;&gt;Upsilon&amp;rsquo;s Unity Top Down 2D RPG Template Project!&lt;/h2&gt;&#xA;&lt;p&gt;I still consider this an in-development project which will evolve throughout the next couple of months however I feel like it is at a good place at the moment for it to be published. It is intended to quicken up the process of creating a top down 2D unity game / prototype.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Major Project: Alchemy Express</title>
+      <link>http://localhost:1313/projects/major-project-alchemy-express/</link>
+      <pubDate>Sun, 02 Jun 2024 00:32:07 +0000</pubDate>
+      <guid>http://localhost:1313/projects/major-project-alchemy-express/</guid>
+      <description>&lt;h2 id=&#34;hello-friend&#34;&gt;Hello Friend&lt;/h2&gt;&#xA;&lt;p&gt;It&amp;rsquo;s been a hot minute since my last post on this site.&lt;/p&gt;&#xA;&lt;p&gt;Just before Christmas I started the fourth and final game jam of my first year of university and me and my team had to decide on a brief that was created by the then-current second year students.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-brief&#34;&gt;The Brief&lt;/h2&gt;&#xA;&lt;p&gt;The briefs that we were supplied with seemed strange. There was &lt;em&gt;a lot&lt;/em&gt; of Hades-clones or games that, to-us didn&amp;rsquo;t sound too coherent.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>UNIVERSITY MAKES ME SO TIRED</title>
+      <link>http://localhost:1313/posts/university-makes-me-so-tired/</link>
+      <pubDate>Mon, 25 Sep 2023 05:15:42 +0000</pubDate>
+      <guid>http://localhost:1313/posts/university-makes-me-so-tired/</guid>
+      <description>&lt;p&gt;I am so &lt;strong&gt;BLOODY&lt;/strong&gt; tired! I just wanna goto bed man, but University &amp;amp; Socialing sucks all energy from my introverted self.&lt;/p&gt;&#xA;&lt;p&gt;- tayler&lt;/p&gt;&#xA;&lt;p&gt;p.s im tired as HELL&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>I HATE Git Submodules</title>
+      <link>http://localhost:1313/posts/submodules/submodules/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/submodules/submodules/</guid>
+      <description>&lt;p&gt;Okay, I really would have preferred the second post on this blog not be an unprofessional rant however I fell very heavily about this:&lt;/p&gt;&#xA;&lt;h3 id=&#34;i-hate-git-submodules&#34;&gt;I HATE GIT SUBMODULES!!!&lt;/h3&gt;&#xA;&lt;p&gt;When I first created this site, this website had a solid off-black background so I wanted to add the current interactive grid that you see before you to make it a little bit more &lt;em&gt;juicy&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;However, what I did not know (this was my first experience using gitmodules), is that if you changed the code in a file from the gitmodule you would not be able to commit those changes to git because it would try to commit the changes to the original github repo that the gitmodule belongs to. So I needed to fork the theme&amp;rsquo;s repo. However, the repo was still using the old gitmodule so I spent a total of &lt;em&gt;&lt;strong&gt;TWO HOURS&lt;/strong&gt;&lt;/em&gt; removing and adding git modules, removing lines from my git configs. It was hell&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello, hello? Is this thing on?</title>
+      <link>http://localhost:1313/posts/first/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/first/</guid>
+      <description>&lt;h1 id=&#34;well-hello-there&#34;&gt;Well hello there!&lt;/h1&gt;&#xA;&lt;p&gt;Hi, my name is Tayler, a UK-based software / game developer, keen support of FOSS, and avid oxford comma user. This site has multiple purposes, mostly centered around technology, software, and other random things that might interest me.&lt;/p&gt;&#xA;&lt;h2 id=&#34;purpose-of-site&#34;&gt;Purpose of site&lt;/h2&gt;&#xA;&lt;p&gt;The primary purpose of this website is to serve as a sort of portfolio that showcases my various skills, projects, and experience regarding software engineering and game development. I will also share blog posts regarding techniques and skills that I may use, sharing tutorials on how to create pieces of software, and showcasing my projects that I am working on / completed, notably my golang rendering engine, and my in-development Unity project.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
