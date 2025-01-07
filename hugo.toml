@@ -1,5 +1,5 @@
-baseURL = 'http:/tayler.diesbackwards.com'
-#baseURL='http://localhost'
+#baseURL = 'http:/tayler.diesbackwards.com'
+baseURL='http://localhost'
 languageCode = 'en'
 defaultContentLanguage = "en"
 title = 'Tayler Parsons'
@@ -19,7 +19,6 @@ ignoreLogs = ['warning-goldmark-raw-html']
   description = "Horse walks into a bar, barman asks \"why the long face?\""
   metaKeywords = ["blog", "golang", "unity", "unity engine", "game development", "tutorials", "video games"]
   site_type = "Person"
-  disqusShortname = ""
 
 [params.assets]
   css = ["static/theme_override.css"]
